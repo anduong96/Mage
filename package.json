@@ -1,0 +1,56 @@
+{
+  "name": "mage",
+  "version": "0.0.1",
+  "description": "",
+  "author": "An Duong <an.duongx@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development gulp dev",
+    "prod": "cross-env NODE_ENV=production gulp prod",
+    "build": "cross-env NODE_ENV=production gulp build",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://anduong96@github.com/anduong96/Mage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anduong96/Mage/issues"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "compression": "^1.7.3",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "ignore-styles": "^5.0.1",
+    "kraken-js": "^2.2.0",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-engine": "^4.5.1",
+    "react-redux": "^6.0.0",
+    "react-router": "^3.2.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "ajv": "^6.6.2",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eventsource-polyfill": "^0.9.6",
+    "react-hot-loader": "^4.6.3",
+    "wizard": "git@github.com:anduong96/Wizard.git#0.0.1",
+    "yarn": "^1.12.3"
+  }
+}
